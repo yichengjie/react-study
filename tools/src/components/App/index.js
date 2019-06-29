@@ -1,9 +1,14 @@
 import React from 'react' ;
-
+import Button from 'antd/es/button' ;
+import './style.css';
 class App extends React.Component{
     render(){
         return (
-            <h1>hello world</h1>
+            <div className="App">
+                <Button  type="primary">
+                    Button
+                </Button>
+            </div>
         ) ;
     }
 }
