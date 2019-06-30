@@ -1,5 +1,5 @@
 import React from 'react' ;
-import { Tabs, Radio } from 'antd';
+import { Tabs, Radio} from 'antd';
 import { EOPNOTSUPP } from 'constants';
 import TabContent1 from './TabContent1' ; 
 import TabContent2 from './TabContent2';
@@ -24,12 +24,6 @@ class Demo extends React.Component {
           </TabPane>
           <TabPane tab="复制请求" key="2">
             <TabContent2></TabContent2>
-          </TabPane>
-          <TabPane tab="跟踪带" key="3">
-            Content of tab 3
-          </TabPane>
-          <TabPane tab="构造请求" key="4">
-            Content of tab 4
           </TabPane>
         </Tabs>
       </div>
