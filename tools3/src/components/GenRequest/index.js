@@ -1,5 +1,7 @@
 import React, { Component, PropTypes } from 'react' ;
 import ClassCheck from '../ClassCheck' ;
+import SearchRequest from '../SearchRequest' ;
+import CopyRequest from '../CopyRequest' ;
 
 class GenRequest extends Component {
     constructor(props){
@@ -13,6 +15,12 @@ class GenRequest extends Component {
     handleItemClick(type,value){
        this.setState({[type]:value}) ;
     }
+    renderTabItem(){
+        if(this.state.requestType == 'search'){
+            return <SearchRequest /> ;
+        }
+        return <CopyRequest/> ;
+    }
     render () {
         return (
             <div>
@@ -20,6 +28,9 @@ class GenRequest extends Component {
                     systemName ={this.state.systemName}
                     requestType = {this.state.requestType}
                     handleItemClick = {this.handleItemClick}/> 
+                {
+                    this.renderTabItem() 
+                }
             </div>
         )
     }
