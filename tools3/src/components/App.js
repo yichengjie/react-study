@@ -1,13 +1,12 @@
 import React from 'react' ;
-import './style.css';
-import GenRequest from '../GenRequest';
+import './App.css';
+import RequestCheckSystem from './RequestCheckSystem.js';
 
 class App extends React.Component{
     render(){
         return (
             <div className="App">
-                <GenRequest></GenRequest>
-                这边是执行结果区域
+                <RequestCheckSystem />
             </div>
         ) ;
     }
