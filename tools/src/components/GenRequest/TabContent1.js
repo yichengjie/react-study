@@ -13,7 +13,7 @@ class TabContent1 extends React.Component{
                 </Col>
                 <Col span={4}><Input placeholder="Basic usage" /></Col>
                 <Col span={4} style={{marginLeft:"15px"}}>
-                    <Button> 搜索</Button>
+                    <Button  type="primary" icon="search"> 搜索</Button>
                 </Col>
             </Row>
         ) ;
