@@ -1,12 +1,13 @@
 import React from 'react' ;
 import './App.css';
-import RequestCheckSystem from './RequestCheckSystem.js';
+import GenRequest from './GenRequest' ;
 
 class App extends React.Component{
+    
     render(){
         return (
             <div className="App">
-                <RequestCheckSystem />
+                <GenRequest  />
             </div>
         ) ;
     }
