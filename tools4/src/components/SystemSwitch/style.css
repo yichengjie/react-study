@@ -1,0 +1,43 @@
+.system-switch-container{
+    height: 70px;
+    background-color: rgba(215, 215, 215, 1);
+    border-radius: 3px;
+    position: relative ;
+}
+
+.system-switch-container .title{
+    padding-left: 15px ;
+    display: inline-block ;
+    height: 70px;
+    line-height: 70px ;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Arial Negreta', 'Arial';
+}
+
+.system-switch-container .content{
+    position: absolute ;
+    display: inline-block ;
+    bottom: 10px;
+    left: 75px;
+}
+
+.system-switch-container .content .item{
+    display: inline-block ;
+    margin-right: 13px;
+    cursor: pointer;
+    padding-right: 12px;
+    border-right: black 1px solid ;
+}
+
+.system-switch-container .content .item:last-child{
+    border-right: none;
+}
+
+.system-switch-container .content .activity{
+    color: #0000FF;
+}
+
+.container::after{
+   clear: both ;
+}

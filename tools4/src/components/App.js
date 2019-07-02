@@ -1,13 +1,15 @@
 import React from 'react' ;
 import './App.css';
-import GenRequest from './GenRequest' ;
+import SystemSwitch from './SystemSwitch' ;
+import GenRequestXml from './GenRequestXml' ;
 
 class App extends React.Component{
-    
+   
     render(){
         return (
-            <div className="container">
-                hello world
+            <div className="container App">
+                <SystemSwitch></SystemSwitch>
+                <GenRequestXml></GenRequestXml>
             </div>
         ) ;
     }

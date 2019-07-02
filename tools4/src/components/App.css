@@ -1,5 +1,6 @@
 .App{
-    margin: 0px 20px 10px 15px;
+    margin: 5px 20px 10px 15px;
+    width: 100% !important ;
 }
 .clearfix {
     *zoom: 1;
