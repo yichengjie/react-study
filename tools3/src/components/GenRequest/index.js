@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react' ;
 import ClassCheck from '../ClassCheck' ;
 import SearchRequest from '../SearchRequest' ;
 import CopyRequest from '../CopyRequest' ;
-
+z
 class GenRequest extends Component {
     constructor(props){
         super(props) ;
